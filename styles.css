@@ -1,0 +1,52 @@
+.inputForm {
+  background-color: white;
+  width: 300px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 21px;
+  font-family: sans-serif;
+  margin: 5px;
+  opacity: .6;
+}
+
+body {
+  background-image: url("circleBackground.jpeg");
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+}
+
+
+#radText {
+color: black;
+background-color: white;
+border-radius: 20px;
+width: 300px;
+font-size: 20px;
+font-family: sans-serif;
+text-align: center;
+opacity: .6;
+}
+
+
+.circle {
+  animation-name: move;
+  animation-duration: 3s;
+}
+
+
+}
+@keyframes move {
+  from {
+      transform:translateX(0);
+  }
+  to {
+      transform:translateX(500px);
+  }
+}
